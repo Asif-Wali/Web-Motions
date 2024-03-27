@@ -73,6 +73,13 @@
 		}
 
 		/* Air */
+		#media iframe,
+		#media video{
+			
+			border-radius:1rem;
+		   border:1px solid cyan;
+		   object-fit: cover;		
+	    }
 	</style>
 </head>
 <body>
@@ -99,6 +106,10 @@
 
 		<div id="media">
 			<!-- Air -->
+			<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/vqXLGX0szIQ?si=F4Sccn2JO2rg7P8H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+
+			<video src="./videos/video-1@c.mp4" height="300" width="450" controls muted autoplay loop poster="./images/video-poster.jpg"></video>
+			
 		</div>
 	</section>
 </body>
